@@ -1,0 +1,305 @@
+%
+% Шаблон для ВКР бакалавра 2023
+%
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{vkriate}
+
+% Настройки для окружений с подчеркиваниями для подписей и пр.
+\setFRMfontencoding{T2A}
+\setFRMdfontencoding{T2A}
+% thanks to A.Starikov
+\setFRMfontfamily{cmr}
+\setFRMdfontfamily{ptm}
+\setFRMdfontsize{10pt}
+
+% задает длину поля для подписи на титульной странице
+\newFRMfield{xtitlesign}{32mm}
+
+% поле для факультета или кафедры
+\newFRMfield{fcath}{65mm}
+
+%имя файла с библиографией в формате BibTex
+\addbibresource{rbiblio.bib}
+
+\begin{document}
+
+% счетчики страниц, рисунков, таблиц
+\regtotcounter{page}
+\regtotcounter{figure}
+\regtotcounter{table}
+
+\renewcommand{\refname}{\centerline{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}} 
+\renewcommand{\contentsname}{\centerline{СОДЕРЖАНИЕ}} 
+%\renewcommand{\refname}{Список источников}  % По умолчанию "Список литературы" (article)
+%\renewcommand{\bibname}{Литература}  % По умолчанию "Литература" (book и report)
+
+% титульная страница
+\thispagestyle{empty}
+\begin{center} \small
+\textbf{МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ\\ РОССИЙСКОЙ ФЕДЕРАЦИИ}\\
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
+ВЫСШЕГО  ОБРАЗОВАНИЯ\\
+«Национальный исследовательский ядерный университет «МИФИ»\\
+\textbf{Обнинский институт атомной энергетики} – \\
+филиал федерального государственного автономного образовательного учреждения высшего\\
+образования «Национальный исследовательский ядерный университет «МИФИ»\\
+(ИАТЭ НИЯУ МИФИ)
+\end{center}
+%\vfill
+\medskip
+
+% Направление подготовки следует уточнять,
+% магистры и бакалавры могут иметь разные наименования
+\begin{center}
+\begin{tabular}{rl}
+Отделение & \useFRMfield{fcath}[\large Интеллектуальные кибернетические системы] \\ 
+%Направление подготовки & \useFRMfield{fcath}[\large Информационные системы и технологии] \\ 
+\end{tabular} 
+\end{center}
+
+\vfill
+
+\large 
+
+\begin{center}
+\textbf{\Large Выпускная квалификационная работа --- } \\
+\textbf{\Large бакалаврская работа}\\
+	
+	\medskip
+
+{ \normalsize
+по направлению подготовки  \textbf{09.03.02 Информационные  системы и технологии}\\
+
+Направленность (профиль) \textbf{Информационные технологии}
+}	
+\vfill
+\vfill
+\medskip
+
+\textbf{\Large 
+		<<Разработка ИС автоматизированного статистического анализа данных, полученных при КГО стендовым методом на реакторах типа ВВЭР>>
+	}
+	
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+\begin{tabular*}{\textwidth}{p{78mm}p{33mm}p{64mm}}
+	Выполнил:\\студент гр. ИС2-Б20 & \useFRMfield{xtitlesign} & Костевич А.Е.\\
+	& & \\
+% должность, научная степень руководителя
+	Руководитель ВКР,\\старший преподаватель ОИКС & \useFRMfield{xtitlesign} & Радаев А.В. \\
+	& & \\
+	
+	Нормоконтроль\\ доцент отделения ИКС, к.ф.-м.н. & \useFRMfield{xtitlesign} &  Качанов~Б.В. \\
+	& & \\
+	% Если нужно добавить консультанта - раскомментируйте две строчки ниже
+	%Консультант ВКР бакалавра\\организация, должность, звание  & \useFRMfield{xtitlesign} & К.О.Нсультант\\
+	%& & \\
+%	Рецензент\\к.ф.-м.н.,   & \useFRMfield{xtitlesign} & В.А. Чепурко\\
+	
+	& & \\
+	Выпускная квалификационная \\ работа допущена к защите & \useFRMfield{xtitlesign} &  \\
+	& & \\
+	Руководитель\\ образовательной программы \\
+	09.03.02 Информационные системы и технологии\\
+	канд. тех. наук  & \useFRMfield{xtitlesign} &Мирзеабасов~О.А. \\
+	
+\end{tabular*}
+\end{center}
+
+\vfill
+\large
+
+\begin{center}
+Обнинск, 2024 г
+\end{center}
+
+\onehalfspacing
+
+\pagebreak
+
+% реферат
+\thispagestyle{empty}
+
+\section*{\centering РЕФЕРАТ}
+
+\thispagestyle{empty} % страница реферата не нумеруется
+
+Работа \total{page} стр., \total{table} табл., \total{figure} рис., \totalmycitecounts ист. 
+
+РАЗРАБОТКА ИНФОРМАЦИОННОЙ СИСТЕМЫ
+АВТОМАТИЗИРОВАННОГО СТАТИСТИЧЕСКОГО АНАЛИЗА ДАННЫХ,
+ПОЛУЧЕННЫХ ПРИ ПРОВЕДЕНИИ КГО СТЕНДОВЫМ МЕТОДОМ ДЛЯ
+РЕАКТОРОВ ТИПА ВВЭР.
+
+Текст реферата должен отражать:
+\begin{itemize}
+\item объект исследования;
+\item предмет исследования;
+\item цель работы;
+\item метод или методологию проведения работы;
+\item научную новизну исследования (для магистерских диссертаций);
+\item практическую значимость результатов работы;
+\item степень внедрения (при наличии справки о внедрении);
+\item экономическую эффективность работы.
+\end{itemize}
+Текст реферата должен размещаться на одном листе (странице).
+
+\pagebreak
+\thispagestyle{empty}
+
+\section*{\centering ОПРЕДЕЛЕНИЯ}
+
+\thispagestyle{empty} % страница определений не нумеруется
+
+Реперный радионуклид --- радионуклид, по выходу которого из твэла в
+теплоноситель первого контура судят о герметичности оболочки твэла, так как
+он обладает ядерно-физическими и химическими характеристиками,
+позволяющими надежно регистрировать его в условиях эксперимента.
+
+Негерметичный твэл - твэл, в оболочке которого имеется повреждение,
+приводящее к выходу продуктов деления из него.
+
+Негерметичная ТВС --- ТВС, в составе которой имеются негерметичные твэлы.
+
+\pagebreak
+
+\section*{\centering ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}
+
+\thispagestyle{empty} % страница обозначений и сокращений не нумеруется
+
+БВ --- Бассейн выдержки.
+
+ВВЭР --- Водо-водяной энергетический реактор.
+
+КГО --- Контроль герметичности оболочек.
+
+ПД --- Продукты деления.
+
+СОДС --- Система обнаружения дефектных сборок.
+
+ТВС --- Тепловыделяющая сборка.
+
+\pagebreak
+
+% титульная страница - номер 1, остальные страницы до Содержания не нумеруются
+\tocloftpagestyle{empty}
+
+\tableofcontents
+% если нужно добавить "Стр." над номерами страниц - раскомментируйте следующую команду
+%\addtocontents{toc}{~\hfill\textbf{Стр.}\par}
+
+\thispagestyle{empty}
+
+\pagebreak
+
+\setcounter{page}{3}
+
+\section*{\centering ВВЕДЕНИЕ}
+\addcontentsline{toc}{section}{ВВЕДЕНИЕ}
+\input{intro} % текст введения в файле intro.tex
+\pagebreak
+
+%\input{Post_zad}
+\pagebreak
+\input{part1}  % первая глава - в файле part1.tex
+\pagebreak
+\input{part2} % вторая глава - в файле part2.tex
+\pagebreak
+
+% если есть еще разделы - сохраните их в соответствующих файлах и раскомментируйте строки ниже, при необходимости добавьте еще
+%\input{part3}  % третья глава - в файле part3.tex
+%\pagebreak
+
+%\input{part4} % четвертая глава - в файле part4.tex
+%\pagebreak
+
+%\input{part5}  % пятая глава - в файле part5.tex
+%\pagebreak
+
+\section*{\centering ЗАКЛЮЧЕНИЕ}
+\addcontentsline{toc}{section}{ЗАКЛЮЧЕНИЕ}
+
+В ходе проделанной работы была проведена --- описать результаты бурной деятельности по выполнению ВКР, разумно в виде списка выполненных задач.
+
+Разработанная программа позволяет --- перечислить основные функциональные характеристики и особенности, можно в виде списка:
+\begin{itemize}
+\item выполнено такое-то задание;
+\item разработана некоторая система;
+\item у работы есть перспективы развития.
+\end{itemize}
+
+% оформление библиографии - вариант с БД
+\pagebreak
+
+\addcontentsline{toc}{section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}
+% ВАЖНО: для корректного отображения в списке литературы ссылок на англ.языке в bibtex-описание источника следует добавить поле 
+% langid = {english}
+\printbibliography
+
+\pagebreak
+
+\renewcommand{\appendixpagename}{\centering Приложения}
+
+\begin{appendices}
+\renewcommand{\thesection}{\Asbuk{section}}
+\makeatletter
+\renewcommand{\theProgram}{\thesection.\@arabic\c@Program}
+\makeatother
+
+% каждое приложение задается следующей командой, нумерация - русскими буквами
+\section{\centering } 
+% независимая нумерация листингов в каждом приложении
+\setcounter{Program}{0}
+
+\begin{flushleft}
+\needspace{3\baselineskip}
+\captionof{Program}{ Часть кода реализации класса HashMapValue}\label{app1}
+\begin{MyCodes}
+public class HashMapValue {
+	
+	protected String filename; 
+	protected HashMap<String, String> hashValue = 
+	new HashMap<>();
+	protected HashMap<String, Boolean> hashKeysFlag =
+	 new HashMap<>();
+	
+	public void setData(String key, String value) {
+		hashValue.put(key, value);
+	}
+	
+	public String getData(String key) {
+		return hashValue.get(key);
+	}
+    /* ... */
+}
+\end{MyCodes}
+\end{flushleft}
+
+\pagebreak
+
+\begin{flushleft}
+\captionof{Program}{Пример кода}\label{app2}
+\begin{MyCodes}
+код второго приложения
+\end{MyCodes}
+
+\end{flushleft}
+% следующее приложение - раскомментировать команды
+%\section{\centering } 
+%\setcounter{Program}{0}
+%\begin{MyCode}
+%код третьего приложения
+%\end{MyCode}
+%\nopagebreak
+%\begin{Program}
+%\caption{Еще пример кода}\label{app3}
+%\end{Program}
+
+\end{appendices}
+
+\end{document}          
+
