@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'vkr.blg'
+[127] biber:322> INFO - === Пн июн  3, 2024, 02:01:25
+[150] Biber.pm:415> INFO - Reading 'vkr.bcf'
+[315] Biber.pm:943> INFO - Found 4 citekeys in bib section 0
+[340] Biber.pm:4256> INFO - Processing section 0
+[341] Utils.pm:75> INFO - Globbing data source 'rbiblio.bib'
+[341] Utils.pm:91> INFO - Globbed data source 'rbiblio.bib' to rbiblio.bib
+[355] Biber.pm:4455> INFO - Looking for bibtex format file 'rbiblio.bib' for section 0
+[357] bibtex.pm:1653> INFO - LaTeX decoding ...
+[382] bibtex.pm:1471> INFO - Found BibTeX data source 'rbiblio.bib'
+[449] Utils.pm:304> WARN - BibTeX subsystem: /tmp/.private/kosstevich/biber_tmp_Z_Tr/rbiblio.bib_227782.utf8, line 4, warning: 46 characters of junk seen at toplevel
+[467] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[467] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[467] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[467] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[479] bbl.pm:652> INFO - Writing 'vkr.bbl' with encoding 'UTF-8'
+[483] bbl.pm:755> INFO - Output to vkr.bbl
+[483] Biber.pm:128> INFO - WARNINGS: 1

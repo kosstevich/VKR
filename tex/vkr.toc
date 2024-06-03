@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{ВВЕДЕНИЕ}{3}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Глава 1 Обзор существующей методики проведения процедуры КГО стендовым методом}{4}{}%
+\contentsline {section}{\numberline {1}Обзор существующей методики проведения процедуры КГО стендовым методом}{4}{}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}Основные положения}{4}{}%
 \defcounter {refsection}{0}\relax 
@@ -11,18 +11,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Обработка результатов}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Формулы}{6}{}%
+\contentsline {section}{\numberline {2}Предложения по улучшению методики обработки данных}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Примеры использования элементов текста}{7}{}%
+\contentsline {subsection}{\numberline {2.1}Рисунки}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Рисунки}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Таблицы}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Таблицы}{7}{}%
+\contentsline {subsection}{\numberline {2.3}Исходный код}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Исходный код}{8}{}%
+\contentsline {section}{\numberline {3}Разработка программного обеспечения с учётом внесённых предложений}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Рисунки}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{10}{}%
+\contentsline {subsection}{\numberline {3.2}Таблицы}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{10}{}%
+\contentsline {subsection}{\numberline {3.3}Исходный код}{12}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{14}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{15}{}%
+\babel@toc {english}{}
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{16}{}%

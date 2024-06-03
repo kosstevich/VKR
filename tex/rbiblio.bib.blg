@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'rbiblio.bib.blg'
+[128] biber:322> INFO - === Чт мая 30, 2024, 22:10:10
+[283] Utils.pm:320> ERROR - Cannot find 'rbiblio.bib.bcf'!
+[284] Biber.pm:132> INFO - ERRORS: 1
