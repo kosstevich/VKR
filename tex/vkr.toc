@@ -11,26 +11,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Обработка результатов}{5}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Предложения по улучшению методики обработки данных}{10}{}%
+\contentsline {subsection}{\numberline {1.4}Учет выгорания топлива ТВС}{10}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Рисунки}{10}{}%
+\contentsline {section}{\numberline {2}Предложения по улучшению методики обработки данных}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Таблицы}{10}{}%
+\contentsline {subsection}{\numberline {2.1}Проблемы существующего подхода}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Исходный код}{10}{}%
+\contentsline {section}{\numberline {3}Разработка программного обеспечения с учётом внесённых предложений}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Разработка программного обеспечения с учётом внесённых предложений}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Рисунки}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Рисунки}{12}{}%
+\contentsline {subsection}{\numberline {3.2}Таблицы}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Таблицы}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Исходный код}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Исходный код}{12}{}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{14}{}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{15}{}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{16}{}%
 \babel@toc {english}{}
 \babel@toc {russian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{16}{}%
+\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{17}{}%

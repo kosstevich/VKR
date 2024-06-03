@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Mageia) (preloaded format=pdflatex 2024.5.29)  3 JUN 2024 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Mageia) (preloaded format=pdflatex 2024.5.29)  4 JUN 2024 01:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -878,12 +878,6 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count445
 \l__pdf_internal_box=\box55
 ) (./vkr.aux
-
-LaTeX Warning: Label `tab:tab1' multiply defined.
-
-
-LaTeX Warning: Label `lst:1' multiply defined.
-
 \c@page@totc=\count446
 \c@figure@totc=\count447
 \c@table@totc=\count448
@@ -908,7 +902,8 @@ LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
 Package biblatex Info: ... file 'russian-gost.lbx' found.
- (/usr/share/texmf-dist/tex/latex/biblatex-gost/russian-gost.lbx
+
+(/usr/share/texmf-dist/tex/latex/biblatex-gost/russian-gost.lbx
 File: russian-gost.lbx 2020/10/28 v1.21 biblatex-gost styles
 Package biblatex Info: Trying to load language 'russian'...
 Package biblatex Info: ... file 'russian.lbx' found.
@@ -1123,45 +1118,43 @@ Overfull \hbox (3.1861pt too wide) in paragraph at lines 17--19
 <pics/ris1.png, id=45, 241.74825pt x 261.40213pt>
 File: pics/ris1.png Graphic file (type png)
 <use pics/ris1.png>
-Package pdftex.def Info: pics/ris1.png  used on input line 74.
+Package pdftex.def Info: pics/ris1.png  used on input line 68.
 (pdftex.def)             Requested size: 234.73524pt x 253.83098pt.
- [6]
-File: pics/ris1.png Graphic file (type png)
-<use pics/ris1.png>
-Package pdftex.def Info: pics/ris1.png  used on input line 81.
-(pdftex.def)             Requested size: 234.73524pt x 253.83098pt.
- [7 <./pics/ris1.png>] [8]
+<pics/ris2.png, id=47, 247.34662pt x 254.22638pt>
+File: pics/ris2.png Graphic file (type png)
+<use pics/ris2.png>
+Package pdftex.def Info: pics/ris2.png  used on input line 75.
+(pdftex.def)             Requested size: 234.73524pt x 241.26541pt.
+ [6 <./pics/ris1.png>] [7 <./pics/ris2.png>]
 LaTeX Font Info:    Font shape `OML/cmr/m/up' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 132.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 126.
 LaTeX Font Info:    Font shape `OMS/cmr/m/up' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
-) [9] (./part2.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
+ [8]
+[9]
+<pics/ris3.png, id=67, 330.81339pt x 201.94595pt>
+File: pics/ris3.png Graphic file (type png)
+<use pics/ris3.png>
+Package pdftex.def Info: pics/ris3.png  used on input line 188.
+(pdftex.def)             Requested size: 469.47049pt x 286.5896pt.
+ [10]) (./part2.tex [11 <./pics/ris3.png>]) [12] (./part3.tex
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-4.
+5.
 
 (/usr/share/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (3.5826pt too wide) in paragraph at lines 36--37
-[]\T2A/cmr/m/up/14.4 »сходный код про-грамм мож-но до-ба-вить с по-мо-щью окру-
-же-ний, опре-
- []
-
-[10]) [11] (./part3.tex
 Overfull \hbox (3.5826pt too wide) in paragraph at lines 30--31
 []\T2A/cmr/m/up/14.4 »сходный код про-грамм мож-но до-ба-вить с по-мо-щью окру-
 же-ний, опре-
  []
 
-[12]) [13] [14]<<ot1tt.cmap>> [15] [16] [17] (./vkr.aux)
+[13]) [14] [15]<<ot1tt.cmap>> [16] [17] [18] (./vkr.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1173,38 +1166,39 @@ Package logreq Info: Writing requests to 'vkr.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16291 strings out of 478994
- 284215 string characters out of 5864743
- 1228175 words of memory out of 5000000
- 33433 multiletter control sequences out of 15000+600000
+ 16310 strings out of 478994
+ 284476 string characters out of 5864743
+ 1228134 words of memory out of 5000000
+ 33450 multiletter control sequences out of 15000+600000
  422704 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,13n,88p,1001b,3518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,88p,1147b,3518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
-b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts
-/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/c
-m-super/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm060
-0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfr
-m1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr
-/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-di
-st/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texmf-dist/fonts/type1/
-public/cm-super/sftt1440.pfb>
-Output written on vkr.pdf (20 pages, 432301 bytes).
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fon
+ts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1
+095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist
+/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
+ftt1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on vkr.pdf (21 pages, 507052 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 191 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 30 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40 words of extra memory for PDF output out of 10000 (max. 10000000)
 
