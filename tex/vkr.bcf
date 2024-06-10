@@ -3486,7 +3486,9 @@
     <bcf:citekey order="5">corosion</bcf:citekey>
     <bcf:citekey order="6">RD</bcf:citekey>
     <bcf:citekey order="7">RD</bcf:citekey>
-    <bcf:citekey order="8">RManual</bcf:citekey>
+    <bcf:citekey order="8">KremerMatstat</bcf:citekey>
+    <bcf:citekey order="9">emissions</bcf:citekey>
+    <bcf:citekey order="10">RANstat</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

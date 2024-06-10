@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Mageia) (preloaded format=pdflatex 2024.5.29)  4 JUN 2024 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Mageia) (preloaded format=pdflatex 2024.5.29)  10 JUN 2024 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,24 +1081,8 @@ Overfull \hbox (64.45271pt too wide) in alignment at lines 89--110
 
 [1
 
-{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.01831pt too wide) in paragraph at lines 133--137
-[]\T2A/cmr/m/up/14.4 РАЗРАБОТКА ИН-ФОР-МА-ЦИ-ОН-НОЙ СИ-СТЕ-МЫ АВ-ТО-МА-ТИ-ЗИ-
- []
-
-
-Overfull \hbox (1.18437pt too wide) in paragraph at lines 133--137
-\T2A/cmr/m/up/14.4 РО-ВАН-НО-ГО СТА-ТИ-СТИ-ЧЕ-СКО-ГО АНА-ЛИ-ЗА ДАН-НЫХ, ПО-ЛУ-Ч
-ЕН-
- []
-
-
-Overfull \hbox (1.66837pt too wide) in paragraph at lines 138--139
-[]\T2A/cmr/m/up/14.4 В дан-ной ра-бо-те про-из-во-дит-ся по-дроб-ный ана-лиз су
--ще-ству-ю-ще-го под-
- []
-
-[2] [3] [4] (./vkr.toc
+{/usr/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+(./vkr.toc
 Overfull \hbox (14.69553pt too wide) in paragraph at lines 6--6
  [][] []\T2A/cmr/bx/n/14.4 Обзор су-ще-ству-ю-щей ме-то-ди-ки про-ве-де-ния про
 -це-ду-ры КГО 
@@ -1137,42 +1121,39 @@ File: pics/ris3.png Graphic file (type png)
 <use pics/ris3.png>
 Package pdftex.def Info: pics/ris3.png  used on input line 188.
 (pdftex.def)             Requested size: 469.47049pt x 286.5896pt.
- [10]) (./part2.tex [11 <./pics/ris3.png>]) [12] (./part3.tex
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-5.
+ [10]) (./part2.tex [11 <./pics/ris3.png>] [12]) [13] (./part3.tex [14]
+Overfull \hbox (6.44453pt too wide) in paragraph at lines 27--28
+[]\T2A/cmr/m/up/14.4 3. При-ло-же-ние долж-но под-дер-жи-вать по-иск вы-бро-сов
+ ме-то-да-ми "IQR"
+ []
 
-(/usr/share/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (3.5826pt too wide) in paragraph at lines 30--31
+[15] [16]) (./part4.tex [17]
+Overfull \hbox (3.5826pt too wide) in paragraph at lines 7--8
 []\T2A/cmr/m/up/14.4 Исходный код про-грамм мож-но до-ба-вить с по-мо-щью окру-
 же-ний, опре-
  []
 
-[13]) [14] [15]<<ot1tt.cmap>> [16] [17] [18] (./vkr.aux)
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+13.
+(/usr/share/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)) [18] [19] [20] [21]
+[22] (./vkr.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                vkr
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'vkr.run.xml'.
 \openout1 = `vkr.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16310 strings out of 478994
- 284476 string characters out of 5864743
- 1228134 words of memory out of 5000000
- 33450 multiletter control sequences out of 15000+600000
- 422704 words of font info for 74 fonts, out of 8000000 for 9000
+ 16299 strings out of 478994
+ 284258 string characters out of 5864743
+ 1228221 words of memory out of 5000000
+ 33443 multiletter control sequences out of 15000+600000
+ 421878 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,13n,88p,1147b,3518s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,13n,88p,1009b,2966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1182,23 +1163,21 @@ cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.
-pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share
-/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fon
-ts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public
-/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1
-095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf-dist
-/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/s
-ftt1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on vkr.pdf (21 pages, 507052 bytes).
+usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf
+-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pf
+b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts
+/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm144
+0.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/f
+onts/type1/public/cm-super/sftt1200.pfb>
+Output written on vkr.pdf (25 pages, 483728 bytes).
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

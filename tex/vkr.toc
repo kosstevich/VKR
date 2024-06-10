@@ -17,18 +17,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1}Проблемы существующего подхода}{12}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Разработка программного обеспечения с учётом внесённых предложений}{13}{}%
+\contentsline {subsection}{\numberline {2.2}Метод IQR}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Рисунки}{13}{}%
+\contentsline {subsection}{\numberline {2.3}Анализ принадлежности данных одному статистическому распределению}{13}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Таблицы}{13}{}%
+\contentsline {section}{\numberline {3}Проектирование приложения с учётом внесённых предложений}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Исходный код}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Требования к проектируемому приложению}{14}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{15}{}%
+\contentsline {subsection}{\numberline {3.2}Обзор инструментов разработки}{15}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{16}{}%
-\babel@toc {english}{}
-\babel@toc {russian}{}
+\contentsline {subsection}{\numberline {3.3}Архитектура приложения}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{17}{}%
+\contentsline {subsection}{\numberline {3.4}Пользовательский сценарий использования}{16}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Разработка приложения}{18}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Исходный код}{18}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{19}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{20}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{21}{}%

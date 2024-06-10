@@ -56,8 +56,8 @@
       \strng{authorbibnamehash}{52a9c4dc81ea417c82bf6009dfe96d86}
       \strng{authornamehash}{52a9c4dc81ea417c82bf6009dfe96d86}
       \strng{authorfullhash}{881de8b8fbe4dd2dfb465ea84756ca91}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Вестник СПбГУ. Серия 4. Физика. Химия.}
       \field{title}{Поведение продуктов коррозии в первом контуре ЯЭУ с водным теплоносителем}
@@ -70,6 +70,32 @@
       \verb{url}
       \verb https://cyberleninka.ru/article/n/povedenie-produktov-korrozii-v-pervom-konture-yaeu-s-vodnym-teplonositelem
       \endverb
+    \endentry
+    \entry{KremerMatstat}{book}{}
+      \name{author}{1}{}{%
+        {{hash=912e17ad6624d50627dab366f46330e9}{%
+           family={Кремер.},
+           familyi={К\bibinitperiod},
+           given={Н.\bibnamedelimi Ш.},
+           giveni={Н\bibinitperiod\bibinitdelim Ш\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Москва : Издательство Юрайт}%
+      }
+      \strng{namehash}{912e17ad6624d50627dab366f46330e9}
+      \strng{fullhash}{912e17ad6624d50627dab366f46330e9}
+      \strng{bibnamehash}{912e17ad6624d50627dab366f46330e9}
+      \strng{authorbibnamehash}{912e17ad6624d50627dab366f46330e9}
+      \strng{authornamehash}{912e17ad6624d50627dab366f46330e9}
+      \strng{authorfullhash}{912e17ad6624d50627dab366f46330e9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Теория вероятностей и математическая статистика — 5-е изд.}
+      \field{year}{2024}
+      \field{pages}{538}
+      \range{pages}{1}
     \endentry
     \entry{emissions}{article}{}
       \name{author}{2}{}{%
@@ -90,8 +116,8 @@
       \strng{authorbibnamehash}{d62fda42ae93b239ed3b98944243bdd3}
       \strng{authornamehash}{d62fda42ae93b239ed3b98944243bdd3}
       \strng{authorfullhash}{d62fda42ae93b239ed3b98944243bdd3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Моделирование, оптимизация и информационные технологии.}
@@ -106,37 +132,39 @@
       \verb https://moitvivt.ru/ru/journal/pdf?id=1210
       \endverb
     \endentry
-    \entry{RManual}{manual}{}
-      \name{author}{1}{}{%
-        {{hash=74eaa7e448f8b6680c1179aa0228bb13}{%
-           family={{R Development Core Team}},
-           familyi={R\bibinitperiod}}}%
+    \entry{RANstat}{article}{}
+      \name{author}{2}{}{%
+        {{hash=db9b5247e41b851fd4ee63292f7c5158}{%
+           family={Александровская},
+           familyi={А\bibinitperiod},
+           given={Л.\bibnamedelimi Н.},
+           giveni={Л\bibinitperiod\bibinitdelim Н\bibinitperiod}}}%
+        {{hash=91a728740d6c8707a7384d6925a29ec7}{%
+           family={Кириллин},
+           familyi={К\bibinitperiod},
+           given={А.\bibnamedelimi В.},
+           giveni={А\bibinitperiod\bibinitdelim В\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Vienna, Austria}%
-      }
-      \list{organization}{1}{%
-        {R Foundation for Statistical Computing}%
-      }
-      \strng{namehash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \strng{fullhash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \strng{bibnamehash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \strng{authorbibnamehash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \strng{authornamehash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \strng{authorfullhash}{74eaa7e448f8b6680c1179aa0228bb13}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \strng{fullhash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \strng{bibnamehash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \strng{authorbibnamehash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \strng{authornamehash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \strng{authorfullhash}{c0ee4df4c12d4b2a7b9ee0dea4dcc2f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{note}{{ISBN} 3-900051-07-0}
-      \field{title}{R: A Language and Environment for Statistical Computing}
-      \field{year}{2010}
+      \field{journaltitle}{Известия Самарского научного центра РАН}
+      \field{title}{Рекомендации по применению ряда критериев проверки отклонения распределения вероятностей от нормального закона в практике инженерного статистического анализа}
+      \field{year}{2017}
+      \field{number}{1\bibrangedash 1}
+      \range{number}{1}
       \verb{urlraw}
-      \verb http://www.R-project.org/
+      \verb https://cyberleninka.ru/article/n/rekomendatsii-po-primeneniyu-ryada-kriteriev-proverki-otkloneniya-raspredeleniya-veroyatnostey-ot-normalnogo-zakona-v-praktike
       \endverb
       \verb{url}
-      \verb http://www.R-project.org/
+      \verb https://cyberleninka.ru/article/n/rekomendatsii-po-primeneniyu-ryada-kriteriev-proverki-otkloneniya-raspredeleniya-veroyatnostey-ot-normalnogo-zakona-v-praktike
       \endverb
     \endentry
   \enddatalist
