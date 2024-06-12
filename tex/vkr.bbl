@@ -132,6 +132,37 @@
       \verb https://moitvivt.ru/ru/journal/pdf?id=1210
       \endverb
     \endentry
+    \entry{Shapiro}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=6b12de7ec32d12225217ea889a8cf1b9}{%
+           family={Лемешко},
+           familyi={Л\bibinitperiod},
+           given={Б.\bibnamedelimi Ю.},
+           giveni={Б\bibinitperiod\bibinitdelim Ю\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Новосибирский государственный технический университет}%
+      }
+      \strng{namehash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \strng{fullhash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \strng{bibnamehash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \strng{authorbibnamehash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \strng{authornamehash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \strng{authorfullhash}{6b12de7ec32d12225217ea889a8cf1b9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Критерии проверки отклонения распределения от нормального закона. Руководство по применению}
+      \field{year}{2014}
+    \endentry
+    \entry{shapiro_GOST}{manual}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{ГОСТ Р ИСО 5479-2002 / Проверка отклонения распределения вероятностей от нормального распределения}
+      \field{year}{2002}
+    \endentry
     \entry{RANstat}{article}{}
       \name{author}{2}{}{%
         {{hash=db9b5247e41b851fd4ee63292f7c5158}{%
