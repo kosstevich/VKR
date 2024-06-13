@@ -3489,10 +3489,11 @@
     <bcf:citekey order="8">KremerMatstat</bcf:citekey>
     <bcf:citekey order="9">emissions</bcf:citekey>
     <bcf:citekey order="10">Shapiro</bcf:citekey>
-    <bcf:citekey order="11">shapiro_GOST</bcf:citekey>
-    <bcf:citekey order="12">RD</bcf:citekey>
+    <bcf:citekey order="11">RANstat</bcf:citekey>
+    <bcf:citekey order="12">shapiro_GOST</bcf:citekey>
     <bcf:citekey order="13">RD</bcf:citekey>
-    <bcf:citekey order="14">RANstat</bcf:citekey>
+    <bcf:citekey order="14">RD</bcf:citekey>
+    <bcf:citekey order="15">Orlov</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

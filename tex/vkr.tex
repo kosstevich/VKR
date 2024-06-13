@@ -229,14 +229,17 @@
 \section*{\centering ЗАКЛЮЧЕНИЕ}
 \addcontentsline{toc}{section}{ЗАКЛЮЧЕНИЕ}
 
-В ходе проделанной работы была проведена --- описать результаты бурной деятельности по выполнению ВКР, разумно в виде списка выполненных задач.
+В ходе проделанной работы был проведён анализ существующего метода анализа данных КГО в пеналах СОДС на реакторах ВВЭР типа. Были приведены предложения по улучшению и автоматизации данного процесса. Было реализовано программное обеспечение с учётом внесённых предложений, в которой реализованы следующие функции:
 
-Разработанная программа позволяет --- перечислить основные функциональные характеристики и особенности, можно в виде списка:
 \begin{itemize}
-\item выполнено такое-то задание;
-\item разработана некоторая система;
-\item у работы есть перспективы развития.
+\item Поиск выбросов методом "3 сигм".
+\item Поиск выбросов методом "IQR".
+\item Анализ распределений выборок .
+\item Экспорт в табличный формат для составления отчётов КГО.
+\item Визуализация и экспорт графиков для составления отчётов КГО.
 \end{itemize}
+
+В дальнейшем планируется исследование данной области на предмет интеграции технологий машинного обучения с целью проверки ТВС на герметичность.
 
 % оформление библиографии - вариант с БД
 \pagebreak
@@ -248,52 +251,52 @@
 
 \pagebreak
 
-\renewcommand{\appendixpagename}{\centering Приложения}
+%\renewcommand{\appendixpagename}{\centering Приложения}
 
-\begin{appendices}
-\renewcommand{\thesection}{\Asbuk{section}}
-\makeatletter
-\renewcommand{\theProgram}{\thesection.\@arabic\c@Program}
-\makeatother
+%\begin{appendices}
+%\renewcommand{\thesection}{\Asbuk{section}}
+%\makeatletter
+%\renewcommand{\theProgram}{\thesection.\@arabic\c@Program}
+%\makeatother
 
 % каждое приложение задается следующей командой, нумерация - русскими буквами
-\section{\centering } 
+%\section{\centering } 
 % независимая нумерация листингов в каждом приложении
-\setcounter{Program}{0}
+%\setcounter{Program}{0}
 
-\begin{flushleft}
-\needspace{3\baselineskip}
-\captionof{Program}{ Часть кода реализации класса HashMapValue}\label{app1}
-\begin{MyCodes}
-public class HashMapValue {
+%\begin{flushleft}
+%\needspace{3\baselineskip}
+%\captionof{Program}{ Часть кода реализации класса HashMapValue}\label{app1}
+%\begin{MyCodes}
+%public class HashMapValue {
 	
-	protected String filename; 
-	protected HashMap<String, String> hashValue = 
-	new HashMap<>();
-	protected HashMap<String, Boolean> hashKeysFlag =
-	 new HashMap<>();
-	
-	public void setData(String key, String value) {
-		hashValue.put(key, value);
-	}
-	
-	public String getData(String key) {
-		return hashValue.get(key);
-	}
-    /* ... */
-}
-\end{MyCodes}
-\end{flushleft}
+%	protected String filename; 
+%	protected HashMap<String, String> hashValue = 
+%	new HashMap<>();
+%	protected HashMap<String, Boolean> hashKeysFlag =
+%	 new HashMap<>();
+%	
+%	public void setData(String key, String value) {
+%		hashValue.put(key, value);
+%	}
+%	
+%	public String getData(String key) {
+%		return hashValue.get(key);
+%	}
+%    /* ... */
+%}
+%\end{MyCodes}
+%\end{flushleft}
 
-\pagebreak
+%\pagebreak
 
-\begin{flushleft}
-\captionof{Program}{Пример кода}\label{app2}
-\begin{MyCodes}
-код второго приложения
-\end{MyCodes}
+%\begin{flushleft}
+%\captionof{Program}{Пример кода}\label{app2}
+%\begin{MyCodes}
+%код второго приложения
+%\end{MyCodes}
 
-\end{flushleft}
+%\end{flushleft}
 % следующее приложение - раскомментировать команды
 %\section{\centering } 
 %\setcounter{Program}{0}
@@ -305,7 +308,7 @@ public class HashMapValue {
 %\caption{Еще пример кода}\label{app3}
 %\end{Program}
 
-\end{appendices}
+%\end{appendices}
 
 \end{document}          
 

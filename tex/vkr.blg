@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'vkr.blg'
-[80] biber:322> INFO - === Ср июн 12, 2024, 22:37:08
-[94] Biber.pm:415> INFO - Reading 'vkr.bcf'
-[199] Biber.pm:943> INFO - Found 7 citekeys in bib section 0
-[215] Biber.pm:4256> INFO - Processing section 0
-[215] Utils.pm:75> INFO - Globbing data source 'rbiblio.bib'
-[215] Utils.pm:91> INFO - Globbed data source 'rbiblio.bib' to rbiblio.bib
-[224] Biber.pm:4455> INFO - Looking for bibtex format file 'rbiblio.bib' for section 0
-[225] bibtex.pm:1653> INFO - LaTeX decoding ...
-[243] bibtex.pm:1471> INFO - Found BibTeX data source 'rbiblio.bib'
-[295] Utils.pm:304> WARN - BibTeX subsystem: /tmp/.private/kosstevich/biber_tmp_s0XA/rbiblio.bib_501427.utf8, line 4, warning: 46 characters of junk seen at toplevel
-[309] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[309] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[309] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[309] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
-[318] bbl.pm:652> INFO - Writing 'vkr.bbl' with encoding 'UTF-8'
-[321] bbl.pm:755> INFO - Output to vkr.bbl
-[321] Biber.pm:128> INFO - WARNINGS: 1
+[90] biber:322> INFO - === Чт июн 13, 2024, 01:15:06
+[106] Biber.pm:415> INFO - Reading 'vkr.bcf'
+[216] Biber.pm:943> INFO - Found 8 citekeys in bib section 0
+[232] Biber.pm:4256> INFO - Processing section 0
+[232] Utils.pm:75> INFO - Globbing data source 'rbiblio.bib'
+[233] Utils.pm:91> INFO - Globbed data source 'rbiblio.bib' to rbiblio.bib
+[242] Biber.pm:4455> INFO - Looking for bibtex format file 'rbiblio.bib' for section 0
+[243] bibtex.pm:1653> INFO - LaTeX decoding ...
+[261] bibtex.pm:1471> INFO - Found BibTeX data source 'rbiblio.bib'
+[323] Utils.pm:304> WARN - BibTeX subsystem: /tmp/.private/kosstevich/biber_tmp_Nx2R/rbiblio.bib_512410.utf8, line 4, warning: 46 characters of junk seen at toplevel
+[338] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[338] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[338] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[338] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[349] bbl.pm:652> INFO - Writing 'vkr.bbl' with encoding 'UTF-8'
+[352] bbl.pm:755> INFO - Output to vkr.bbl
+[353] Biber.pm:128> INFO - WARNINGS: 1

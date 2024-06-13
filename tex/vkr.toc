@@ -25,46 +25,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.3}U-критерий Манна-Уитни}{16}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Критерий Стьюдента для независимых выборок}{19}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}T-критерий Крамера-Уэлча}{19}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Проектирование приложения с учётом внесённых предложений}{20}{}%
+\contentsline {section}{\numberline {3}Проектирование приложения с учётом внесённых предложений}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Требования к проектируемому приложению}{20}{}%
+\contentsline {subsection}{\numberline {3.1}Требования к проектируемому приложению}{21}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Архитектура приложения}{21}{}%
+\contentsline {subsection}{\numberline {3.2}Архитектура приложения}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Пользовательский сценарий использования}{21}{}%
+\contentsline {subsection}{\numberline {3.3}Пользовательский сценарий использования}{22}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Разработка приложения}{23}{}%
+\contentsline {section}{\numberline {4}Разработка приложения}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Обзор инструментов разработки}{23}{}%
+\contentsline {subsection}{\numberline {4.1}Обзор инструментов разработки}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Python}{23}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Python}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Pandas + NumPy}{23}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Pandas + NumPy}{24}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}SciPy}{24}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}SciPy}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4}Matplotlib+Seaborn}{24}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}Matplotlib+Seaborn}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.5}PyQt}{24}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}PyQt}{25}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Импорт данных}{25}{}%
+\contentsline {subsection}{\numberline {4.2}Импорт данных}{26}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Анализ данных}{27}{}%
+\contentsline {subsection}{\numberline {4.3}Анализ данных}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Пользовательский интерфейс}{27}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Поиск выбросов}{28}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Основные окна приложения}{27}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Статистические тесты}{30}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.2}Окно импорта файла}{28}{}%
+\contentsline {subsection}{\numberline {4.4}Пользовательский интерфейс}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.3}Интеграция Matplotlib в качестве QWidget}{28}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Основные окна приложения}{31}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.4}Главное окно приложения}{30}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}Окно импорта файла}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{31}{}%
+\contentsline {subsubsection}{\numberline {4.4.3}Интеграция Matplotlib в качестве QWidget}{32}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{32}{}%
+\contentsline {subsubsection}{\numberline {4.4.4}Главное окно приложения}{34}{}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre } \numberline {\CYRA }\centering }{33}{}%
+\contentsline {subsubsection}{\numberline {4.4.5}Окно анализа выборок}{34}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{37}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{38}{}%

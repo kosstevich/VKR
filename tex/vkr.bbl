@@ -156,13 +156,6 @@
       \field{title}{Критерии проверки отклонения распределения от нормального закона. Руководство по применению}
       \field{year}{2014}
     \endentry
-    \entry{shapiro_GOST}{manual}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labeltitlesource}{title}
-      \field{title}{ГОСТ Р ИСО 5479-2002 / Проверка отклонения распределения вероятностей от нормального распределения}
-      \field{year}{2002}
-    \endentry
     \entry{RANstat}{article}{}
       \name{author}{2}{}{%
         {{hash=db9b5247e41b851fd4ee63292f7c5158}{%
@@ -197,6 +190,39 @@
       \verb{url}
       \verb https://cyberleninka.ru/article/n/rekomendatsii-po-primeneniyu-ryada-kriteriev-proverki-otkloneniya-raspredeleniya-veroyatnostey-ot-normalnogo-zakona-v-praktike
       \endverb
+    \endentry
+    \entry{shapiro_GOST}{manual}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{ГОСТ Р ИСО 5479-2002 / Проверка отклонения распределения вероятностей от нормального распределения}
+      \field{year}{2002}
+    \endentry
+    \entry{Orlov}{book}{}
+      \name{author}{1}{}{%
+        {{hash=22c4e8d4880add9b653b32bdf9c00d06}{%
+           family={Орлов},
+           familyi={О\bibinitperiod},
+           given={А.\bibnamedelimi И.},
+           giveni={А\bibinitperiod\bibinitdelim И\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Москва "Экзамен"}%
+      }
+      \strng{namehash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \strng{fullhash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \strng{bibnamehash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \strng{authorbibnamehash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \strng{authornamehash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \strng{authorfullhash}{22c4e8d4880add9b653b32bdf9c00d06}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Эконометрика}
+      \field{year}{2002}
+      \field{pages}{437}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection
