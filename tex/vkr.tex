@@ -251,44 +251,98 @@
 
 \pagebreak
 
-%\renewcommand{\appendixpagename}{\centering Приложения}
+\renewcommand{\appendixpagename}{\centering Приложения}
 
-%\begin{appendices}
-%\renewcommand{\thesection}{\Asbuk{section}}
-%\makeatletter
-%\renewcommand{\theProgram}{\thesection.\@arabic\c@Program}
-%\makeatother
+\begin{appendices}
+\renewcommand{\thesection}{\Asbuk{section}}
+\makeatletter
+\renewcommand{\theProgram}{\thesection.\@arabic\c@Program}
+\makeatother
 
 % каждое приложение задается следующей командой, нумерация - русскими буквами
-%\section{\centering } 
+\section{\centering } 
 % независимая нумерация листингов в каждом приложении
-%\setcounter{Program}{0}
+\setcounter{Program}{0}
 
-%\begin{flushleft}
-%\needspace{3\baselineskip}
-%\captionof{Program}{ Часть кода реализации класса HashMapValue}\label{app1}
-%\begin{MyCodes}
-%public class HashMapValue {
+\begin{flushleft}
+\needspace{3\baselineskip}
+\captionof{Program}{Реализация метода поиска выбросов в выборке}\label{check}
+\begin{MyCodes}
+def check(self, method_type="3_sigma"):
+'''
+Поиск выбросов в выборке согласно RD_6.7.1.5
+В дополнение к RD_6.7.1.5 реализован поиск с помощью метода IQR
+''' 
+	# Получаем копию DataFrame, который является полем сущности
+	df = self.df
+	# Создаём экземпляры DataFrame, которые будут хранить информацию
+	# о герметичных ТВС, а также о ТВС, подлежащих повторной проверке
+	self.non_hermetic_df = pd.DataFrame()
+	self.recheck_df=pd.DataFrame()
 	
-%	protected String filename; 
-%	protected HashMap<String, String> hashValue = 
-%	new HashMap<>();
-%	protected HashMap<String, Boolean> hashKeysFlag =
-%	 new HashMap<>();
-%	
-%	public void setData(String key, String value) {
-%		hashValue.put(key, value);
-%	}
-%	
-%	public String getData(String key) {
-%		return hashValue.get(key);
-%	}
-%    /* ... */
-%}
-%\end{MyCodes}
-%\end{flushleft}
+	while True:
+		remove = pd.DataFrame()
+		
+		for i in range(0,len(criteriums)-1):
+			# Вычисляем параметры для поиска критических значений
+			if method_type=="IQR":
+				# Расчёт параметров для метода "IQR"
+				a_q1 = df[criteriums[i]].quantile(q=.25)
+				a_q3 = df[criteriums[i]].quantile(q=.75)
+				a_IQR = a_q3-a_q1
+				
+				a_corosion_q1 = df[criteriums[i]].quantile(q=.25)
+				a_corosion_q3 = df[criteriums[i]].quantile(q=.75)
+				a_corosion_IQR = a_corosion_q3-a_corosion_q1
+				
+				a_crit = (a_q3+1.7*a_IQR)
+				a_corosion_crit = (a_corosion_q3+1.7*a_corosion_IQR)
+			else:
+				# Расчёт параметров для метода "3 сигм"
+				a_mean = df[criteriums[i]].mean()
+				a_corosion_mean = df["Mn-54"].mean()
+				a_std = df[criteriums[i]].std()
+				a_corosion_std = df["Mn-54"].std()
+				a_crit = self.crit_value(a_mean, a_std, len(df))
+				a_corosion_crit = self.crit_value(a_corosion_mean,
+					a_corosion_std, len(df))
+			
+			# Аггрегируем DataFrame по критическому значению
+			# В результате получаем таблицу ТВС, 
+			# у которых аномально высокие активности реперных ПД
+			crit_df = df[(df[criteriums[i]]>a_crit)].reset_index(drop=True)
+			
+			# Для ТВС, полученных в crit_df
+			# проверяется выброс по продуктам коррозии
+			non_hermetic = crit_df[crit_df["Mn-54"]<a_corosion_crit]
+			recheck = crit_df[crit_df["Mn-54"]>=a_corosion_crit]
+			
+			if not non_hermetic.empty:
+				non_hermetic["Criterium"] = criteriums[i] 
+				self.non_hermetic_df = pd.concat(
+					[self.non_hermetic_df,
+						non_hermetic], ignore_index=True)
+			
+			if not recheck.empty:
+				recheck["Criterium"] = criteriums[i] 
+				self.recheck_df = pd.concat(
+					[self.recheck_df,recheck], 
+						ignore_index=True)
+			
+			remove = pd.concat([remove,crit_df["Id1"]], ignore_index=True)
+		
+		if remove.empty:
+			break
+		
+		for i in range(0,len(remove)):
+		df = df.loc[df["Id1"]!=remove[0].iloc[i]]
+		df = df.reset_index(drop=True)
+	
+	return self.non_hermetic_df, self.recheck_df
+\end{MyCodes}
+\end{flushleft}
 
-%\pagebreak
+\pagebreak
 
 %\begin{flushleft}
 %\captionof{Program}{Пример кода}\label{app2}
@@ -308,7 +362,7 @@
 %\caption{Еще пример кода}\label{app3}
 %\end{Program}
 
-%\end{appendices}
+\end{appendices}
 
 \end{document}          
 
